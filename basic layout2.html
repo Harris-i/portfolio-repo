@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Basic Layout</title>
+        
+        <style>
+            :root{
+                --main-color:brown;
+                --head-font:impact;
+                --p-font:verdana;
+            }   
+            body{
+                font-family: arial,helvetica;
+                background: slategrey;
+                margin: 0;
+                padding: 0;
+            }  
+            #wrapper{
+                border: 0px solid black;
+                width: 1000px;
+                background: white;
+                margin: 0  auto;
+            }
+            #header{
+                background:red;
+                 color: white;
+                height: 100px;
+                font-family: var(--head-font);   
+            }
+            #header h1{
+                padding: 30px 0 0 20px;
+                text-align: center;
+            }
+            #menu{
+             background: green;   
+            }
+            #menu ul {
+                margin: 0;
+                padding: 0;
+            }
+            #menu li{
+                display: inline-block;
+                float: right;
+                background-color: green;
+            }
+            #menu li a{
+                display: block;
+                padding: 10px 13px;
+                text-decoration: none;
+                color: black;
+            }
+            #menu li a:hover{
+                background:blue;
+                color: white;
+            }
+            #content{
+                width: 800px;
+                min-height: 500px;
+                padding: 15px;
+                float: right;
+                box-sizing: border-box;
+                --m-color:red;
+                color: var(--m-color);
+            }
+            #content h2{
+                color: var(--main-color);
+                font-family: var(--head-font);
+                text-align:center ;
+                background: cyan;
+            
+            }
+            #sidebar{
+             background: yellow;
+             width: 200px;
+             min-height: 500px;
+             float: left;   
+            }
+            #sidebar a{
+                text-decoration: none;
+                color: black;
+            }
+            #footer{
+                background:cyan;
+                text-align: right; 
+                clear: both; 
+                padding: 5px 10px; 
+            }   
+        </style>    
+    </head>
+    <div id="wrapper">
+        <div id="header" class="xyz">
+
+            <h1>Harris Baba</h1>
+        </div>
+        <div id="menu">
+         
+           <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">About Us</a></li>
+               <li><a href="">Gallery</a></li>
+               <li><a href="">Contact Us</a></li>
+           </ul> 
+        </div>
+        <div id="content">
+            <h2>Design Basic Layout</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium debitis architecto, ipsa sed consequuntur odio perferendis in similique deserunt mollitia fuga veritatis! Aperiam facere ad aut, nihil maiores quia harum quasi sapiente laborum odit reprehenderit! Maiores tenetur, architecto molestias commodi possimus quaerat aperiam fugiat deserunt quos placeat, ratione perferendis minus, a blanditiis voluptas! Earum quis porro fugiat incidunt delectus. Laboriosam odio aliquam quis nemo deserunt facere unde optio totam. Ad adipisci corrupti, ab laboriosam quia sint doloribus neque veritatis alias, in quae beatae recusandae! Minima cupiditate quidem dolorem perspiciatis optio amet assumenda consectetur dicta aliquam, natus distinctio non veniam aliquid</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium debitis architecto, ipsa sed consequuntur odio perferendis in similique deserunt mollitia fuga veritatis! Aperiam facere ad aut, nihil maiores quia harum quasi sapiente laborum odit reprehenderit! Maiores tenetur, architecto molestias commodi possimus quaerat aperiam fugiat deserunt quos placeat, ratione perferendis minus, a blanditiis voluptas! Earum quis porro fugiat incidunt delectus. Laboriosam odio aliquam quis nemo deserunt facere unde optio totam. Ad adipisci corrupti, ab laboriosam quia sint doloribus neque veritatis alias, in quae beatae recusandae! Minima cupiditate quidem dolorem perspiciatis optio amet assumenda consectetur dicta aliquam, natus distinctio non veniam aliquid</p>
+        </div>
+        <div id="sidebar">
+           <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">About Us</a></li>
+               <li><a href="">Gallery</a></li>
+               <li><a href="">Contact Us</a></li>
+           </ul> 
+        </div>
+        <div id="footer">
+            harrisbaba@copyright 2018.
+        </div>
+    </div>
+    <body>
+        
+    </body>
+</html>        
